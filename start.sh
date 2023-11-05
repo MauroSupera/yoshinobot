@@ -18,7 +18,7 @@ SABTCYAN='\033[1;36m'
 WHITE='\033[1;37m'
 while : 
 do
-echo "${GREEN}︎YOSHINO 2.0 _ Esta script contém auto reconexão ativada para prevenção de quedas... Aproveite! <3"
+echo "${GREEN}︎YOSHINO 3.0 _ Esta script contém auto reconexão ativada para prevenção de quedas... Aproveite! <3"
 node connect.js
 sleep 1
 done

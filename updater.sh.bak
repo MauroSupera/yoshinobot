@@ -11,7 +11,7 @@ zip -r database.zip database
 # Encontra e remove todos os arquivos e pastas exceto os especificados, entendeu? Aqui nesta aba é onde todos os arquivos serão apagados excepto os colocados dentro deles
 # A logica é junte dos outros o seguinte (-name "caminho da pasta ou arquivo" -o) e junta no meio dos outros, entendeu? Senão entendeu não é minha culpa kkk
 
-find . -maxdepth 1 ! \( -name "settings.zip" -o -name "database.zip" -o -name "latest_release.zip" \) -exec rm -rf {} \;
+find . -maxdepth 1 ! \( -name "settings.zip" -o -name "database.zip" -o -name "config.json" -o -name "latest_release.zip" \) -exec rm -rf {} \;
 
 # Descompactando o arquivo da nova atualização, o que voce precisa fazer é compactar a pasta do bot e subir no github na case ja vem predefinido pra ter este nome "latest_release.zip"
 unzip latest_release.zip

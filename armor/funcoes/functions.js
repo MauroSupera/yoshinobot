@@ -244,10 +244,10 @@ return `-c ${key}=${value}`
 }).concat(config.presets).filter(Boolean)
 }
 
-authorname = 'Sabrina'
-packname = 'Vitinho'
+authorname = 'Yoshino'
+packname = 'Sony'
 
-chyt = `558288279194@s.whatsapp.net`
+chyt = `5521999025698@s.whatsapp.net`
 
 const usedCommandRecently = new Set()
 const isFiltered = (from) => !!usedCommandRecently.has(from)
