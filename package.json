@@ -40,7 +40,7 @@
   "version": "7.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "ulimit -c 0 && bash start.sh sim",
+    "start": "ulimit -c 0 && bash start.sh não",
     "test": "node connect.js"
   },
   "repository": {
